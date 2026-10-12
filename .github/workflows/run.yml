@@ -1,9 +1,8 @@
 name: 刷步数
 
 on:
-  # schedule 已禁用（2026-10-12）：改由 Gitee Go 定时触发，避免 GitHub schedule 延迟导致重复执行
-  # schedule:
-  #   - cron: '15 2,5,8 * * *'
+  schedule:
+    - cron: '15 2,5,8 * * *'
   workflow_dispatch:
 
 jobs:
