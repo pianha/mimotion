@@ -1,9 +1,6 @@
 name: 刷步数
 
 on:
-  schedule:
-    # 北京时间 9:15 / 14:15（UTC 01:15 / 06:15）
-    - cron: '15 1,6 * * *'
   workflow_dispatch:
 
 jobs:
